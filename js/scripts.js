@@ -39,12 +39,6 @@ $.getJSON("post_list.json", function(data){
 
 	});
 
-	$(".nav-link-cat").css({
-		"width": (100 / categories.length) + "%",
-		"color": "blue",
-		"display": "inline-block"
-	});
-
 
 
 });

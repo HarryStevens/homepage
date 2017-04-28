@@ -139,6 +139,13 @@ h2 a:hover {
 }
 
 /*COLORS*/
+.nav-link-cat {
+	display: inline-block;
+	margin-right: 10px;
+}
+.nav-list-cat.blocks {
+	margin-right: 0px;
+}
 .nav-link-cat a {
 	color: #fff;
 	padding: 5px 8px;
