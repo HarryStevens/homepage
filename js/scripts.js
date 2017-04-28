@@ -26,7 +26,6 @@ $.getJSON("post_list.json", function(data){
 			$(".body-section." + slug).append("<a href='" + row.url + "'><div class='article article-" + row_index + "'><div class='headline'>" + row.headline + "</div><div class='dateline'>" + pub_line + row.date + "</div></div></a>");
 
 			if (slug == "published"){
-				console.log(row.img);
 				$(".body-section.published .article-" + row_index).prepend("<div style='background-image:url(" + row.img + ")' class='img-wrapper'></div>")
 			}
 
