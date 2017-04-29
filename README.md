@@ -9,12 +9,12 @@ $ npm install
 
 ## Generate a list of posts
 ```bash
-$ node scrape_blocks.js
-$ node scrape_medium.js
+$ node build/scrape_blocks.js
+$ node build/scrape_medium.js
 ```
 
 ## To look at the site
 ```bash
 $ python -m SimpleHTTPServer 1234
 ```
-Open localhost:1234
+Open (localhost:1234)[http://localhost:1234/]
