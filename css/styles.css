@@ -132,6 +132,11 @@ h2 a:hover {
   max-height: 40px;
   text-shadow: 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff;
   text-overflow: ellipsis;
+  transition: background-position 1s;
+  -webkit-transition: background-position 1s;
+}
+.body-section.blocks .article:hover {
+	background-position: left bottom; 
 }
 
 .body-section.blocks a:hover .dateline {
