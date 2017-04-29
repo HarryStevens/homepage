@@ -44,6 +44,9 @@ h2 a:hover {
 	margin-bottom: 20px;
 	text-align: center;
 }
+.header h1 a {
+	color: #3a403d;
+}
 
 .nav-links {
 	padding: 10px 0px;

@@ -13,6 +13,12 @@ $ node build/scrape_blocks.js
 $ node build/scrape_medium.js
 ```
 
+## Build the site
+```bash
+$ node build/create_home.js
+$ node build/create_blog.js
+```
+
 ## To look at the site
 ```bash
 $ python -m SimpleHTTPServer 1234

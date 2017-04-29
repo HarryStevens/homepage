@@ -22,8 +22,9 @@ $.getJSON("post_list.json", function(data){
 		w.forEach(function(row, row_index){
 
 			var pub_line = slug == "published" ?  row.publication + " | " : "";
+			var url = slug == "blog" ? "blog/" + row.slug : row.url;
 
-			$(".body-section." + slug).append("<a href='" + row.url + "'><div class='article article-" + row_index + "'><div class='headline'>" + row.headline + "</div><div class='dateline'>" + pub_line + row.date + "</div></div></a>");
+			$(".body-section." + slug).append("<a href='" + url + "'><div class='article article-" + row_index + "'><div class='headline'>" + row.headline + "</div><div class='dateline'>" + pub_line + row.date + "</div></div></a>");
 
 			if (slug == "published"){
 				$(".body-section.published .article-" + row_index).prepend("<div style='background-image:url(" + row.img + ")' class='img-wrapper'></div>")
@@ -42,6 +43,10 @@ $.getJSON("post_list.json", function(data){
 
 
 });
+
+var text = $(".header h1 a").attr("href", "#").text();
+$(".header h1").html(text);
+
 
 
 function slugify(text){
