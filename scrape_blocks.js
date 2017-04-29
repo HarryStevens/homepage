@@ -74,6 +74,7 @@ var parser = parse({delimiter: ","}, function (err, data) {
 		for (var i = 1; i <= number; i++){
 
 			scrape_gist_limited(i);
+			
 		}
 
 	});
