@@ -1,5 +1,3 @@
-$("head").append("<link rel='stylesheet' href='../../lib/prism.css' /><link rel='stylesheet' href='../../css/blog.css' />");
-
 $(document).ready(function(){
 
 	// strip all attributes
@@ -9,19 +7,16 @@ $(document).ready(function(){
 	var h = $(".blog-wrapper").html().replaceAll("</pre><pre>", "<br />");
 	$(".blog-wrapper").html(h);
 
-
 	$(".blog-wrapper pre").each(function(index, pre){
 		var html = $(pre).html().replaceAll("\"","");
 		$(this).addClass("language-javascript").html("<code class='language-javascript'>" + html + "</code>");
 	});
-	// $(".blog-wrapper pre code").addClass("language-javascript");
 
 	$("title").html("Harry Stevens | " + $(".blog-wrapper h1").text())
-
 	
 });
 
 String.prototype.replaceAll = function(search, replacement) {
-    var target = this;
-    return target.replace(new RegExp(search, 'g'), replacement);
+  var target = this;
+  return target.replace(new RegExp(search, 'g'), replacement);
 };

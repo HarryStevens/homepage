@@ -186,12 +186,44 @@ h2 a:hover {
 .footer {
 	text-align: center;
 	margin-bottom: 20px;
+	margin-top: 50px;
 }
 .footer .swatch {
 	height: 10px;
 	width: 10px;
 	display: inline-block;
 	margin-right: 4px;
+}
+
+/*BLOG*/
+.blog-wrapper {
+	margin: 0 auto;
+	max-width: 768px;
+	margin-top: 60px;
+}
+.blog-wrapper h1 {
+  font-size: 1.9em;
+  margin-top: 5px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.blog-wrapper h3 {
+	font-size: 1.3em;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.blog-wrapper p {
+  font-family: "PT Serif", serif;
+  font-size: 1.2em;
+  font-weight: 100;
+  line-height: 1.7em;
+}
+.blog-wrapper p a {
+	color: #337ab7;
+}
+.blog-wrapper p a:hover {
+	color: #23527c;
+	text-decoration: underline;
 }
 
 /* Large Devices, Wide Screens */
@@ -246,6 +278,9 @@ h2 a:hover {
 	.body-section.published a {
 		width: 97%;
 		/*margin-right: 40px;*/
+	}
+	.blog-wrapper p {
+		font-size: 1.1em;
 	}
 }
 
