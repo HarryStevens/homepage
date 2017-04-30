@@ -3,7 +3,7 @@ var fs = require("fs"),
 	request = require("request"),
 	moment = require("moment");
 
-var curr_json = JSON.parse(fs.readFileSync("post_list.json", "utf-8"));
+var json = [];
 
 request("https://medium.com/@harry_stevens/", function(error, response, body){
 
@@ -21,8 +21,8 @@ request("https://medium.com/@harry_stevens/", function(error, response, body){
 			obj.slug = slugify(obj.headline);
 			obj.url = $(post).find(".postArticle-content.js-postField").parent().attr("href").split("?")[0];
 
-			curr_json.push(obj);
-			fs.writeFileSync("post_list.json", JSON.stringify(curr_json));
+			json.push(obj);
+			fs.writeFileSync("data/blog.json", JSON.stringify(json));
 
 		});
 

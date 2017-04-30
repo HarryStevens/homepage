@@ -142,8 +142,8 @@ h2 a:hover {
 	background-position: left bottom; 
 }
 
-.body-section.blocks a:hover .dateline {
-	text-decoration: underline;
+.body-section.blocks .dateline {
+	display: none;
 }
 
 /*COLORS*/

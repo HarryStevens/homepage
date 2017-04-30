@@ -8,7 +8,7 @@ $(document).ready(function(){
 	$(".blog-wrapper").html(h);
 
 	$(".blog-wrapper pre").each(function(index, pre){
-		var html = $(pre).html().replaceAll("\"","");
+		var html = $(pre).html();
 		$(this).addClass("language-javascript").html("<code class='language-javascript'>" + html + "</code>");
 	});
 

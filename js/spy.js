@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	var nl_top = $(".nav-links").offset().top;
 
 	function spy(){
@@ -49,7 +50,9 @@ $(document).ready(function(){
 	$(window).scroll(spy)
 
 	// Add smooth scrolling to all links
-	$("a").on("click touchstart", function(event) {
+	$(document).on("click touchstart", "a", function(event) {
+
+		console.log("hello");
 
 	  // Make sure this.hash has a value before overriding default behavior
 	  if (this.hash !== "") {
