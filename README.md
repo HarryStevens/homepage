@@ -23,4 +23,4 @@ $ node build/create_blog.js
 ```bash
 $ python -m SimpleHTTPServer 1234
 ```
-Open (localhost:1234)[http://localhost:1234/]
+Open localhost:1234 in your browser.
