@@ -35,7 +35,7 @@ _.rateLimit = function(func, rate, async) {
 var blog_posts = getDirectories("blog");
 
 // load the blog posts
-var posts = JSON.parse(fs.readFileSync("post_list.json", "utf-8")).filter(function(d){ return d.category == "Blog"; });
+var posts = JSON.parse(fs.readFileSync("data/blog.json", "utf-8")).filter(function(d){ return d.category == "Blog"; });
 
 var head = fs.readFileSync("components/head.html", "utf-8");
 var foot = fs.readFileSync("components/foot.html", "utf-8");
