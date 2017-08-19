@@ -42,6 +42,8 @@ request("https://gist.github.com/harrystevens", function(error, response, body){
 
 	var $ = cheerio.load(body);
 
+	console.log("Data will output as data/blocks.json");
+
 	var number = Math.ceil($("nav.reponav.js-repo-nav.js-sidenav-container-pjax").find("a:nth-of-type(1)").find(".Counter").text() / 10);
 	console.log("Total gist pages: " + number)
 

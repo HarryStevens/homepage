@@ -21,8 +21,11 @@ request("https://medium.com/@harry_stevens/", function(error, response, body){
 			obj.slug = slugify(obj.headline);
 			obj.url = $(post).find(".postArticle-content.js-postField").parent().attr("href").split("?")[0];
 
-			json.push(obj);
-			fs.writeFileSync("data/blog.json", JSON.stringify(json));
+			if (obj.headline != "About IndieData") {
+				json.push(obj);
+				console.log(obj.headline);
+				fs.writeFileSync("data/blog.json", JSON.stringify(json));
+			}
 
 		});
 

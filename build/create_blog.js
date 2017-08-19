@@ -35,7 +35,7 @@ _.rateLimit = function(func, rate, async) {
 var blog_posts = getDirectories("blog");
 
 // load the blog posts
-var posts = JSON.parse(fs.readFileSync("data/blog.json", "utf-8")).filter(function(d){ return d.category == "Blog"; });
+var posts = JSON.parse(fs.readFileSync("data/blog.json", "utf-8")).filter(d => d.category == "Blog" && d.headline != "About IndieData");
 
 var head = fs.readFileSync("components/head.html", "utf-8");
 var foot = fs.readFileSync("components/foot.html", "utf-8");
@@ -45,12 +45,16 @@ var get_post_limited = _.rateLimit(get_post_html, 1000);
 
 posts.forEach(get_post_limited);
 
-function get_post_html(post){
+function get_post_html(post, post_index){
 
 	request(post.url, function(error, response, body){
 
 		var $ = cheerio.load(body);
-		var html = $(".section-inner.sectionLayout--insetColumn").html();
+		var html = "";
+
+    $(".section-inner").each((section_index, section) => {
+      html += $(section).html();
+    });
 
 		if (blog_posts.indexOf(post.slug) == -1){
 			fs.mkdirSync("blog/" + post.slug);

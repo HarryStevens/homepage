@@ -38,6 +38,10 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1Na5JXRu_GIgpi8tC9WOSg6awb
 		categories.forEach(function(cat){
 
 			var w = _.where(data, {category: cat});
+
+			// filter out certain items from the published list
+			if (cat == "Published") w = w.filter(function(d){ return d.hide != "TRUE"; });
+
 			var slug = w[0].cat_slug;
 
 			$(".nav-links .links-sub-wrapper").append("<div class='nav-link-cat " + slug + "'><a href='#" + slug + "'>" + cat + "</a></div>");

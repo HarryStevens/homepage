@@ -2,25 +2,32 @@ This is the code to generate [my homepage](http://www.harryjstevens.com/).
 
 ## Setup
 ```bash
-$ git clone https://github.com/harrystevens/homepage
-$ cd homepage
-$ npm install
+git clone https://github.com/harrystevens/homepage
+cd homepage
+npm install
 ```
 
-## Generate a list of posts
+## Build
 ```bash
-$ node build/scrape_blocks.js
-$ node build/scrape_medium.js
+npm run build
 ```
 
-## Build the site
+This command creates the entire site. But it is made up of other commands, which you can use individually.
+
+### Generate post list
 ```bash
-$ node build/create_home.js
-$ node build/create_blog.js
+node build/scrape_blocks.js
+node build/scrape_medium.js
 ```
 
-## To look at the site
+### Build the site
 ```bash
-$ python -m SimpleHTTPServer 1234
+node build/create_blog.js
+node build/create_home.js
+```
+
+## Open
+```bash
+python -m SimpleHTTPServer 1234
 ```
 Open localhost:1234 in your browser.

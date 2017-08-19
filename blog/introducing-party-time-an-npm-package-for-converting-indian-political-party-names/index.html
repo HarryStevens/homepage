@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width">
+
+	<title>Harry Stevens</title>
+
+	<link rel="icon" href="/img/favicon.ico?" type="image/x-icon" />
+
+	<link rel="stylesheet" href="http://harryjstevens.com/css/styles.css" />
+	<link rel='stylesheet' href="http://harryjstevens.com/lib/prism.css" />
+
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/FontAwesome.otf" />
+</head>
+<body>
+	<div class="header">
+		<h1><a href="/ ">Harry Stevens</a></h1>
+		<h2>Stories, code and graphics at <b>The Hindustan Times</b>. New Delhi, India.
+
+			<a href="http://twitter.com/harry_stevens/">
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+			</a>
+			<a href="https://github.com/harrystevens">
+				<i class="fa fa-github" aria-hidden="true"></i>
+			</a>
+			<!-- <a href="https://bl.ocks.org/HarryStevens">
+				<img src="https://bl.ocks.org/favicon.png" />
+			</a> -->
+
+		</h2>
+	</div><div class='blog-wrapper'><div>Last updated on 12 July, 2017 | <a href='https://medium.com/indiedata/introducing-party-time-a-node-package-that-makes-converting-indian-political-party-names-b0e9ba28d5ca'><i style='color:#00ab6b' class='fa fa-medium' aria-hidden='true'></i> Originally published on Medium</a></div><h1 name="f5e9" id="f5e9" class="graf graf--h3 graf--leading graf--title">Introducing &#x201C;party-time&#x201D;: An npm package for converting Indian political party&#xA0;names</h1><p name="f5ce" id="f5ce" class="graf graf--p graf-after--h3">One thing I&#x2019;ve had to do more than once in my work at the Hindustan Times is convert party acronyms to full party names, or vice versa. Imagine you have a page showing the <a href="http://www.hindustantimes.com/interactives/goa-election-results-2017-live-data/" data-href="http://www.hindustantimes.com/interactives/goa-election-results-2017-live-data/" class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank">results of the Goa state assembly elections</a>. On mobile devices, you want to only show the party acronyms (in this case, &#x201C;INC&#x201D; and &#x201C;BJP&#x201D;), but on wider screens you want to show the full party names (&#x201C;Indian National Congress&#x201D; and &#x201C;Bharatiya Janata Party&#x201D;). To do this, you need a function that will output either the acronym or the full name, after detecting the screen size.</p><figure name="a345" id="a345" class="graf graf--figure graf--layoutOutsetCenter graf-after--p"><div class="aspectRatioPlaceholder is-locked" style="max-width: 1000px; max-height: 127px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 12.7%;"></div><img class="graf-image" data-image-id="1*r5lNleMRICpqMkoqe9ZYew.png" data-width="1028" data-height="131" data-action="zoom" data-action-value="1*r5lNleMRICpqMkoqe9ZYew.png" src="https://cdn-images-1.medium.com/max/2000/1*r5lNleMRICpqMkoqe9ZYew.png"></div><figcaption class="imageCaption">Show the parties on a wide&#xA0;screen&#x2026;</figcaption></figure><figure name="87d7" id="87d7" class="graf graf--figure graf-after--figure"><div class="aspectRatioPlaceholder is-locked" style="max-width: 467px; max-height: 80px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 17.1%;"></div><img class="graf-image" data-image-id="1*EyozTZKDbI8IrAZjwJxpnQ.png" data-width="467" data-height="80" src="https://cdn-images-1.medium.com/max/1600/1*EyozTZKDbI8IrAZjwJxpnQ.png"></div><figcaption class="imageCaption">&#x2026;or on a narrower mobile&#xA0;device.</figcaption></figure><p name="489c" id="489c" class="graf graf--p graf-after--figure">This problem is easy to solve, but I&#x2019;ve had to write the code to do it more than once, which is time consuming. I also keep creating different libraries of party acronyms and their associated full names, and I always end up looking for them over and over again.</p><p name="e96d" id="e96d" class="graf graf--p graf-after--p">To solve these problems, I created <a href="https://www.npmjs.com/package/party-time" data-href="https://www.npmjs.com/package/party-time" class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank">an npm package called <strong class="markup--strong markup--p-strong">party-time</strong></a>.</p><figure name="bc63" id="bc63" class="graf graf--figure graf-after--p"><div class="aspectRatioPlaceholder is-locked" style="max-width: 700px; max-height: 467px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 66.7%;"></div><img class="graf-image" data-image-id="1*oi1pW0jG6O30uiQQSLzXLA.gif" data-width="900" data-height="600" data-action="zoom" data-action-value="1*oi1pW0jG6O30uiQQSLzXLA.gif" src="https://cdn-images-1.medium.com/max/1600/1*oi1pW0jG6O30uiQQSLzXLA.gif"></div><figcaption class="imageCaption">It&#x2019;s party-time!</figcaption></figure><p name="ae73" id="ae73" class="graf graf--p graf-after--figure">party-time has just three functions: getType(), getInfo(), and convert(). The convert() function uses the first two, but those can also be called by themselves.</p><p name="3331" id="3331" class="graf graf--p graf-after--p">Right now, the library of parties is almost certainly not comprehensive. But as I (and, perhaps, you) use the library, the gaps will be filled in. To give it a test, you can install it with npm:</p><pre name="a837" id="a837" class="graf graf--pre graf-after--p">npm i party-time -S</pre><p name="c9d4" id="c9d4" class="graf graf--p graf-after--pre">Or you can use it in the browser by including the CDN:</p><pre name="baf6" id="baf6" class="graf graf--pre graf-after--p">&lt;script src=&quot;<a href="https://unpkg.com/party-time/lib/party-time.min.js" data-href="https://unpkg.com/party-time/lib/party-time.min.js" class="markup--anchor markup--pre-anchor" rel="nofollow noopener" target="_blank">https://unpkg.com/party-time/lib/party-time.min.js</a>&quot;&gt;&lt;/script&gt;</pre><p name="d703" id="d703" class="graf graf--p graf-after--pre">It&#x2019;s pretty simple to use, but if you want to take a look at the documentation, head over to <a href="https://github.com/HindustanTimesLabs/party-time" data-href="https://github.com/HindustanTimesLabs/party-time" class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank">the GitHub repo</a>. If you find a party I&#x2019;m missing, <a href="https://github.com/HindustanTimesLabs/party-time/issues" data-href="https://github.com/HindustanTimesLabs/party-time/issues" class="markup--anchor markup--p-anchor" rel="nofollow noopener" target="_blank">open up an issue</a>.</p><p name="4968" id="4968" class="graf graf--p graf-after--p graf--trailing"><strong class="markup--strong markup--p-strong">Last note:</strong> I think npm is really great. It makes creating and sharing reusable JavaScript code easy. If you have some code you think you (or someone else) might want to reuse, and you want to turn it into a package, I recommend this <a href="https://medium.com/@jdaudier/how-to-create-and-publish-your-first-node-js-module-444e7585b738" data-href="https://medium.com/@jdaudier/how-to-create-and-publish-your-first-node-js-module-444e7585b738" class="markup--anchor markup--p-anchor" target="_blank">useful tutorial</a> by Joanne Daudier. I&#x2019;ve been on a <a href="https://www.npmjs.com/package/jeezy" data-href="https://www.npmjs.com/package/jeezy" class="markup--anchor markup--p-anchor" rel="noopener nofollow" target="_blank">package</a>-<a href="https://www.npmjs.com/package/fsz" data-href="https://www.npmjs.com/package/fsz" class="markup--anchor markup--p-anchor" rel="noopener nofollow" target="_blank">creating</a> binge lately.</p></div><div class="footer">
+	<div>Harry Stevens, 2017</div>
+	<div><div style="background:#66c2a5" class="swatch"></div><div style="background:#fc8d62" class="swatch"></div><div style="background:#8da0cb" class="swatch"></div></div>
+</div><script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script src='../../lib/prism.js'></script><script src='../../js/blog.js'></script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47877483-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

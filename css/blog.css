@@ -1,4 +1,7 @@
-
+.graf-image {
+  width: 100%;
+  position: relative;
+}
 
 .footer {
 	margin-top: 50px;

@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "blocks": "node build/scrape_blocks.js"
+    "blocks": "node build/scrape_blocks.js",
+    "blog": "node build/scrape_medium.js; node build/create_blog.js",
+    "home": "node build/create_home.js",
+    "build": "npm run blocks; npm run blog; npm run home"
   },
   "author": "",
   "license": "ISC",

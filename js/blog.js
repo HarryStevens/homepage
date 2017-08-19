@@ -3,6 +3,9 @@ $(document).ready(function(){
 	// strip all attributes
 	$(".blog-wrapper a, .blog-wrapper code, .blog-wrapper pre, .blog-wrapper div, .blog-wrapper p, .blog-wrapper h1, .blog-wrapper h3").removeAttr("class").removeAttr("id").removeAttr("name");
 
+	// remove inline styling from figure divs
+	$(".blog-wrapper figure div").removeAttr("style");
+
 	// replace every instance of </pre><pre>
 	var h = $(".blog-wrapper").html().replaceAll("</pre><pre>", "<br />");
 	$(".blog-wrapper").html(h);

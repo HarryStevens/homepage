@@ -225,6 +225,12 @@ h2 a:hover {
 	color: #23527c;
 	text-decoration: underline;
 }
+.blog-wrapper figure {
+	margin: 40px 0px;
+}
+.blog-wrapper img {
+	width: 100%;
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
