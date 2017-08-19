@@ -1,7 +1,7 @@
 {
-  "name": "design",
+  "name": "homepage",
   "version": "1.0.0",
-  "description": "",
+  "description": "My website",
   "main": "index.js",
   "scripts": {
     "blocks": "node build/scrape_blocks.js",
@@ -9,11 +9,14 @@
     "home": "node build/create_home.js",
     "build": "npm run blocks; npm run blog; npm run home"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarryStevens/homepage.git"
+  },
+  "author": "Harry Stevens <harryjosephstevens@gmail.com> (http://harryjstevens.com/)",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^0.22.0",
-    "csv-parse": "^1.2.0",
     "moment": "^2.18.1",
     "request": "^2.81.0",
     "underscore": "^1.8.3"
