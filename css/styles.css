@@ -120,6 +120,7 @@ h2 a:hover {
   width: 32%;
   margin-right: 2%;
   color: #000;
+  max-height: 90px;
 }
 .body-section.blocks .article {
   border: solid 1px #eee;
@@ -132,7 +133,7 @@ h2 a:hover {
   padding-top: 5px;
   padding-bottom: 50px;
   margin-bottom: 20px;
-  max-height: 40px;
+  max-height: 25px;
   text-shadow: 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff;
   text-overflow: ellipsis;
   transition: background-position 1s;
@@ -279,11 +280,10 @@ h2 a:hover {
 		padding-left: 15px;
 	}
 	.body-section.blocks a {
-		width: 97%;
+		width: 100%;
 	}
 	.body-section.published a {
-		width: 97%;
-		/*margin-right: 40px;*/
+		width: 100%;
 	}
 	.blog-wrapper p {
 		font-size: 1.1em;
