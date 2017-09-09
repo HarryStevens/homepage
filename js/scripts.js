@@ -30,13 +30,14 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1Na5JXRu_GIgpi8tC9WOSg6awb
 		data = no_blocks.concat(blocks);
 
 		data.forEach(function(d){
-			return d.cat_slug = slugify(d.category); 
+			return d.cat_slug = jz.str.toSlugCase(d.category); 
 		});
 
 		var categories = ["Published", "Blog", "Blocks"];
 		// categories.push("Blocks");
 		categories.forEach(function(cat){
 
+			// look up all the posts that match the category
 			var w = _.where(data, {category: cat});
 
 			// filter out certain items from the published list
@@ -66,22 +67,11 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1Na5JXRu_GIgpi8tC9WOSg6awb
 				}
 			});
 
-		});
+		}); // end categories loop
 
 	}
 
 });
 
-
-
 var text = $(".header h1 a").attr("href", "#").text();
 $(".header h1").html(text);
-
-function slugify(text){
-  return text.toString().toLowerCase()
-    .replace(/\s+/g, '-')           // Replace spaces with -
-    .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
-    .replace(/\-\-+/g, '-')         // Replace multiple - with single -
-    .replace(/^-+/, '')             // Trim - from start of text
-    .replace(/-+$/, '');            // Trim - from end of text
-}
