@@ -103,7 +103,7 @@ h2 a:hover {
 .body-section.published .img-wrapper {
 	width: 100%;
   height: 150px;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 5px;
