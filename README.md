@@ -2,7 +2,7 @@ This is the code to generate [my homepage](http://www.harryjstevens.com/).
 
 ## Setup
 ```bash
-git clone https://github.com/harrystevens/homepage
+git clone git@github.com:HarryStevens/homepage.git
 cd homepage
 npm install
 ```
