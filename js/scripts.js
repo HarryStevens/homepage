@@ -51,7 +51,7 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1Na5JXRu_GIgpi8tC9WOSg6awb
 			w.forEach(function(row, row_index){
 
 				var pub_line = slug == "published" ?  row.publication + " | " : "";
-				var url = slug == "blog" ? "blog/" + row.slug : row.url;
+				var url = slug === "blog" && row.internal ? "blog/" + row.slug : row.url;
 
 				$(".body-section." + slug).append("<a href='" + url + "'><div class='article article-" + row_index + "'><div class='headline'>" + row.headline + "</div><div class='dateline'>" + pub_line + row.date + "</div></div></a>");
 

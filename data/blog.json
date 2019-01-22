@@ -1,1 +1,29 @@
-[{"category":"Blog","headline":"Introducing “party-time”: An npm package for converting Indian political party names","date":"12 July, 2017","publication":"Medium","slug":"introducing-party-time-an-npm-package-for-converting-indian-political-party-names","url":"https://medium.com/indiedata/introducing-party-time-a-node-package-that-makes-converting-indian-political-party-names-b0e9ba28d5ca"},{"category":"Blog","headline":"How I built a Twitter bot that tweets 100-year-old New York Times articles","date":"28 April, 2017","publication":"Medium","slug":"how-i-built-a-twitter-bot-that-tweets-100-year-old-new-york-times-articles","url":"https://medium.com/@harry_stevens/how-i-built-a-twitter-bot-that-tweets-100-year-old-new-york-times-articles-5253365f9966"}]
+[
+  {
+    "internal": false,
+    "category": "Blog",
+    "headline": "A method for directly labelling lines on line charts",
+    "date": "19 January, 2019",
+    "publication": "Observable",
+    "slug": "directly-labelling-lines",
+    "url": "https://beta.observablehq.com/@harrystevens/directly-labelling-lines"
+  },
+  {
+    "internal": true,
+    "category": "Blog",
+    "headline": "Introducing “party-time”: An npm package for converting Indian political party names",
+    "date": "12 July, 2017",
+    "publication": "Medium",
+    "slug": "introducing-party-time-an-npm-package-for-converting-indian-political-party-names",
+    "url": "https://medium.com/indiedata/introducing-party-time-a-node-package-that-makes-converting-indian-political-party-names-b0e9ba28d5ca"
+  },
+  {
+    "internal": true,
+    "category": "Blog",
+    "headline": "How I built a Twitter bot that tweets 100-year-old New York Times articles",
+    "date": "28 April, 2017",
+    "publication": "Medium",
+    "slug": "how-i-built-a-twitter-bot-that-tweets-100-year-old-new-york-times-articles",
+    "url": "https://medium.com/@harry_stevens/how-i-built-a-twitter-bot-that-tweets-100-year-old-new-york-times-articles-5253365f9966"
+  }
+]
