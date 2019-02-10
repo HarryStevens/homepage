@@ -62,7 +62,7 @@ function scrape_gist(n){
 		if (!error && response.statusCode == 200){
 
 			var $ = cheerio.load(body);
-			$(".repository-content.gist-content").find(".gist-snippet").each(function(block_index, block){
+			$(".gist-snippet").each(function(block_index, block){
 				
 				// make sure the gist is a block
 				if ($(block).find("a:nth-of-type(2)").text() == ".block"){
