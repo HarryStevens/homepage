@@ -126,7 +126,7 @@ h2 a:hover {
   border: solid 1px #eee;
   border-bottom: solid 1px #ccc;
   background-repeat: no-repeat;
-  background-position: left top; 
+  background-position: center; 
   background-size: 100%;
   padding-left: 10px;
   padding-right: 10px;

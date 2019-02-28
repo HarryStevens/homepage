@@ -72,15 +72,15 @@ function scrape_gist(n){
 
 					obj.block_number = (n - 1) * 10 + (block_index + 1);
 
-					console.log("Got block number " + obj.block_number);
-
 					obj.category = "Blocks";
-					obj.headline = $(block).find(".description").text().trim();
+					obj.headline = $(block).find("span.f6.text-gray").text().trim();
 					obj.date = $(block).find("time-ago").text().trim();
 					obj.publication = "bl.ocks.org";
 					obj.slug = slugify(obj.headline);
 					var url_end = $(block).find("a:nth-of-type(2)").attr("href");
 					obj.url = "https://bl.ocks.org" + url_end;
+
+          console.log("Got block number " + obj.block_number, obj.headline);
 
 					request("https://gist.github.com/" + url_end, function(error, response, body){
 						
