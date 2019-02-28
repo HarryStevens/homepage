@@ -9,6 +9,15 @@
     "url": "https://beta.observablehq.com/@harrystevens/directly-labelling-lines"
   },
   {
+    "internal": false,
+    "category": "Blog",
+    "headline": "TEDx Talk: How to turn a Bollywood song into a bar chart",
+    "date": "14 May, 2018",
+    "publication": "YouYube",
+    "slug": "tedx-talk",
+    "url": "https://www.youtube.com/watch?v=tzNM0hjQ9CI"
+  },
+  {
     "internal": true,
     "category": "Blog",
     "headline": "Introducing “party-time”: An npm package for converting Indian political party names",
