@@ -2,6 +2,15 @@
   {
     "internal": false,
     "category": "Blog",
+    "headline": "Introducing d3-regression",
+    "date": "8 April, 2019",
+    "publication": "Observable",
+    "slug": "introducing-d3-regression",
+    "url": "https://observablehq.com/@harrystevens/introducing-d3-regression"
+  },  
+  {
+    "internal": false,
+    "category": "Blog",
     "headline": "A method for directly labelling lines on line charts",
     "date": "19 January, 2019",
     "publication": "Observable",
@@ -16,6 +25,15 @@
     "publication": "YouYube",
     "slug": "tedx-talk",
     "url": "https://www.youtube.com/watch?v=tzNM0hjQ9CI"
+  },
+  {
+    "internal": false,
+    "category": "Blog",
+    "headline": "Information is Beautiful Awards, 2017",
+    "date": "2 Dec., 2017",
+    "publication": "Information is Beautiful",
+    "slug": "iib-2017",
+    "url": "https://www.informationisbeautifulawards.com/news/262-the-winners-people-language-identity"
   },
   {
     "internal": true,
@@ -34,5 +52,14 @@
     "publication": "Medium",
     "slug": "how-i-built-a-twitter-bot-that-tweets-100-year-old-new-york-times-articles",
     "url": "https://medium.com/@harry_stevens/how-i-built-a-twitter-bot-that-tweets-100-year-old-new-york-times-articles-5253365f9966"
+  },
+  {
+    "internal": false,
+    "category": "Blog",
+    "headline": "Hindustan Times bags 3 infographics awards at Malofiej",
+    "date": "3 April, 2017",
+    "publication": "Hindustan Times",
+    "slug": "malofiej-2017",
+    "url": "https://www.hindustantimes.com/india-news/hindustan-times-bags-3-infographics-awards-at-malofiej/story-p228qXRCNlN3AlLp4pFv5M.html"
   }
 ]

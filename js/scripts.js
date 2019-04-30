@@ -1,19 +1,6 @@
-$.getJSON("https://spreadsheets.google.com/feeds/list/1Na5JXRu_GIgpi8tC9WOSg6awbt3WKq9nLKptj64TLFQ/default/public/values?alt=json-in-script&callback=?", function(data){
+d3.json("data/published.json", function(data){
 	
-	var columns = Object.keys(data.feed.entry[0]).filter(function(key){ return key.indexOf("gsx$") != -1; });
-	var published = data.feed.entry.map(function(row, row_index){
-		
-		var obj = {};
-
-		columns.forEach(function(column){
-
-			obj[column.replace("gsx$", "")] = row[column].$t;
-
-		});
-
-		return obj;
-		
-	});
+	var published = data;
 
 	d3.queue()
 		.defer(d3.json, "data/blog.json")
@@ -34,7 +21,7 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1Na5JXRu_GIgpi8tC9WOSg6awb
 		});
 
 		var categories = ["Published", "Blog", "Blocks"];
-		// categories.push("Blocks");
+
 		categories.forEach(function(cat){
 
 			// look up all the posts that match the category
@@ -55,15 +42,16 @@ $.getJSON("https://spreadsheets.google.com/feeds/list/1Na5JXRu_GIgpi8tC9WOSg6awb
 
 				$(".body-section." + slug).append("<a href='" + url + "'><div class='article article-" + row_index + "'><div class='headline'>" + row.headline + "</div><div class='dateline'>" + pub_line + row.date + "</div></div></a>");
 
-				if (slug == "published"){
+				if (slug === "published"){
 					$(".body-section.published .article-" + row_index).prepend("<div style='background-image:url(" + row.img + ")' class='img-wrapper'></div>")
 				}
 
-				if (slug == "blocks"){
+				if (slug === "blocks"){
 					
 					$(".body-section.blocks .article-" + row_index).css({
 						"background-image": "url(" + row.img + ")"
-					})
+					});
+
 				}
 			});
 

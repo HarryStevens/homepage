@@ -1,0 +1,472 @@
+[
+  {
+    "category": "Published",
+    "headline": "Israeli moon landing to mark milestone in lunar exploration",
+    "date": "9 April, 2019",
+    "publication": "Axios",
+    "slug": "spinny-moon",
+    "url": "https://www.axios.com/israeli-moon-landing-graphic-all-the-moon-landings-4941c45f-b7a3-4c1a-a797-37214564d975.html",
+    "img": "img/spinny-moon.gif",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "First of its kind study shows CEO political donations favor GOP",
+    "date": "31 March, 2019",
+    "publication": "Axios",
+    "slug": "ceo-contribs",
+    "url": "https://www.axios.com/ceo-political-giving-republicans-1ef230b4-ba70-4be9-86f7-38c64fcc097e.html",
+    "img": "img/ceo-contribs.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "Special report: The gamification of courtship",
+    "date": "9 February, 2019",
+    "publication": "Axios",
+    "slug": "dating-game",
+    "url": "https://www.axios.com/online-dating-swiping-tinder-bumble-hinge-gaming-28f87a88-7227-4ed2-b2b4-04eaa2086d09.html",
+    "img": "img/dating-game.gif",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "El Niño may be coming, but it's missing a key piece",
+    "date": "20 December, 2018",
+    "publication": "Axios",
+    "slug": "el-nino",
+    "url": "https://www.axios.com/el-nino-is-developing-in-pacific-ocean-winter-2019-9d878cf0-a7a5-45e5-8459-b041f209e199.html",
+    "img": "img/el-nino.gif",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "Corporate America leans GOP in 2018 midterms",
+    "date": "1 November, 2018",
+    "publication": "Axios",
+    "slug": "corporate-contributions",
+    "url": "https://www.axios.com/corporate-america-campaign-contributions-midterms-ca695de3-7700-414c-af2c-9599dbce2713.html",
+    "img": "img/corporate-contributions.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "All the planets we've found in the Milky Way — so far",
+    "date": "6 October, 2018",
+    "publication": "Axios",
+    "slug": "exoplanets",
+    "url": "https://www.axios.com/all-the-exoplanets-we-detected-in-the-milky-way-24423697-a27c-4e5f-a23f-e0a7b7ae4c45.html",
+    "img": "img/exoplanets.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "Most campaign contributions come from outside candidates' districts",
+    "date": "28 August, 2018",
+    "publication": "Axios",
+    "slug": "campaign-contributions-new-york",
+    "url": "https://www.axios.com/house-campaign-contributions-outside-money-f776be9e-f74b-4834-8ff4-ae30df1f7c61.html",
+    "img": "img/geo-campaign-finance-fallback.gif",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "The deadliest city: Behind Chicago’s segregated shooting sprees",
+    "date": "14 August, 2018",
+    "publication": "Axios",
+    "slug": "chicago-guns",
+    "url": "https://www.axios.com/chicago-gun-violence-murder-rate-statistics-4addeeec-d8d8-4ce7-a26b-81d428c14836.html",
+    "img": "img/chicago-guns.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "How Trump properties profited from his presidency",
+    "date": "28 June, 2018",
+    "publication": "Axios",
+    "slug": "trump-payments",
+    "url": "https://www.axios.com/donald-trump-properties-taxpayer-campaigns-presidency-91e3755d-23cd-42d1-897d-c0c81ac509dd.html",
+    "img": "img/trump-payments.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "A 30-year alarm on the reality of climate change",
+    "date": "23 June, 2018",
+    "publication": "Axios",
+    "slug": "heat-globes",
+    "url": "https://www.axios.com/how-much-earth-has-warmed-since-hansen-testified-b6f8fdb4-484e-477f-b8b6-6ee320994dc0.html",
+    "img": "img/heat-globes.gif",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "Where the U.S. is bombing ISIS in Iraq and Syria",
+    "date": "14 June, 2018",
+    "publication": "Axios",
+    "slug": "airstrikes",
+    "url": "https://www.axios.com/where-the-us-is-bombing-isis-in-iraq-and-syria-9187d0a9-edea-4d4a-8a36-628636e7f752.html",
+    "img": "img/airstrikes.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "Mapped: Global temperatures since 1880",
+    "date": "7 June, 2018",
+    "publication": "Axios",
+    "slug": "climate-small-multiples",
+    "url": "https://www.axios.com/how-much-the-world-has-warmed-since-1880-9fcf1bcb-38d4-4bff-8dc8-10fde9f4c895.html",
+    "img": "img/climate-small-multiples.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "Hometowns of Americans who died for U.S. since 9/11",
+    "date": "28 May, 2018",
+    "publication": "Axios",
+    "slug": "memorial-day-map",
+    "url": "https://www.axios.com/map-hometowns-of-americas-fallen-servicemembers-since-911-3d64f6a3-fc0b-421d-8dbb-06a6b94a1b66.html",
+    "img": "img/memorial-day-map.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "First map of global freshwater trends shows \"human fingerprint",
+    "date": "16 May, 2018",
+    "publication": "Axios",
+    "slug": "contour-map",
+    "url": "https://www.axios.com/map-of-freshwater-trends-human-impacts-1526484828-26c12185-7c10-4a06-ac66-0a92ec399514.html",
+    "img": "img/contour-map.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "Seven decades after independence, most Dalit farmers still landless",
+    "date": "3 February, 2018",
+    "publication": "Hindustan Times",
+    "slug": "dalit-farmers",
+    "url": "https://www.hindustantimes.com/interactives/dalit-farmers-landless-agricultural-labourers-minimum-support-price/",
+    "img": "img/dalit-map.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "Delhi needs to hire more than 12,000 teachers, but that would be illegal",
+    "date": "7 December, 2017",
+    "publication": "Hindustan Times",
+    "slug": "teacher-vacancies",
+    "url": "http://www.hindustantimes.com/class-of-2018/delhi-schools-12000-teacher-vacancies.html",
+    "img": "img/teacher-grid.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "The timeless allure of Hercule Poirot",
+    "date": "26 November, 2017",
+    "publication": "Hindustan Times",
+    "slug": "poirot",
+    "url": "http://www.hindustantimes.com/interactives/murder-on-the-orient-express-hercule-poirot-agatha-christie/",
+    "img": "img/poirot.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "Rohingya villages burnt to the ground in Myanmar",
+    "date": "21 September, 2017",
+    "publication": "Hindustan Times",
+    "slug": "rohingya-map",
+    "url": "http://www.hindustantimes.com/interactives/rohingya-villages-burning-myanmar-rakhine/",
+    "img": "img/rohingya.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "Bihar's scary new flood",
+    "date": "18 September, 2017",
+    "publication": "Hindustan Times",
+    "slug": "bihar-flood-2017",
+    "url": "http://www.hindustantimes.com/interactives/bihar-floods-2017/",
+    "img": "img/bihar-flood-death-map.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "On Delhi’s outskirts, schools urgently need teachers",
+    "date": "7 August, 2017",
+    "publication": "Hindustan Times",
+    "slug": "urgent-schools",
+    "url": "http://www.hindustantimes.com/class-of-2018/urgent-requirement-delhi-schools-map.html",
+    "img": "img/urgent-schools.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "Politicians accused of communal crimes, and where to find them",
+    "date": "27 July, 2017",
+    "publication": "Hindustan Times",
+    "slug": "communal-pols",
+    "url": "http://www.hindustantimes.com/interactives/list-of-communal-politicians-india/",
+    "img": "img/communal-pols.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "Find the perfect run or walk, anywhere in the world",
+    "date": "11 July, 2017",
+    "publication": "Hindustan Times",
+    "slug": "perfect-run",
+    "url": "http://www.hindustantimes.com/interactives/fitter-mumbai-run-finder/",
+    "img": "img/fitter-mumbai-app-demo.gif",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "Play with the Swachh Bharat rankings and make your city &ldquo;cleaner&rdquo;",
+    "date": "11 May, 2017",
+    "publication": "Hindustan Times",
+    "slug": "swachh-rankings",
+    "url": "http://www.hindustantimes.com/interactives/swachh-bharat-swachh-survekshan-cities-ranking/",
+    "img": "img/swachh-chart.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "How India&rsquo;s cities have grown and shrunk over the last 116 years",
+    "date": "4 May, 2017",
+    "publication": "Hindustan Times",
+    "slug": "population-change-map",
+    "url": "http://www.hindustantimes.com/interactives/cities-since-1901/",
+    "img": "img/pop-change-map.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "Municipal Corporation of Delhi election results 2017",
+    "date": "26 April, 2017",
+    "publication": "Hindustan Times",
+    "slug": "mcd-2017",
+    "url": "http://www.hindustantimes.com/interactives/mcd-election-results-2017-data/",
+    "img": "img/mcd-2017.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "What&rsquo;s it like to get trolled all day long?",
+    "date": "17 April, 2017",
+    "publication": "Hindustan Times",
+    "slug": "trolled-all-day",
+    "url": "http://www.hindustantimes.com/interactives/lets-talk-about-trolls/whats-it-like-to-get-trolled-all-day-long/",
+    "img": "img/barkha-dutt-feed.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "Electoral Trusts: How some of India&rsquo;s biggest companies route money to political parties",
+    "date": "14 April, 2017",
+    "publication": "Hindustan Times",
+    "slug": "electoral-trusts",
+    "url": "http://www.hindustantimes.com/interactives/electoral-trusts-explained/",
+    "img": "img/electoral-trust-sankey.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "The Indian Premier League: A tangled history",
+    "date": "5 April, 2017",
+    "publication": "Hindustan Times",
+    "slug": "ipl-history",
+    "url": "http://www.hindustantimes.com/interactives/indian-premier-league-complete-history/",
+    "img": "img/tangles.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "Every key budget scheme in one chart",
+    "date": "3 February, 2017",
+    "publication": "Hindustan Times",
+    "slug": "every-budget-scheme-one-chart",
+    "url": "http://www.hindustantimes.com/static/union-budget-2017/every-budget-scheme-one-chart/",
+    "img": "img/budget-beeswarm.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "For every 100 rupees the government spends, only 34 matter",
+    "date": "1 February, 2017",
+    "publication": "Hindustan Times",
+    "slug": "bubble-budget-breakdown",
+    "url": "http://www.hindustantimes.com/static/union-budget-2017/bubble-budget-breakdown/",
+    "img": "img/bubble-budget.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "Saving the Ganga is not an election issue in Uttar Pradesh",
+    "date": "23 November, 2016",
+    "publication": "Hindustan Times",
+    "slug": "ganga-force",
+    "url": "http://www.hindustantimes.com/static/river-sutra/ganga-uttar-pradesh/",
+    "img": "img/ganga-force-layout.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "Inside the riot machine",
+    "date": "17 October, 2016",
+    "publication": "Hindustan Times",
+    "slug": "inside-riot-machine",
+    "url": "http://www.hindustantimes.com/static/uttar-pradesh-communal-riot/anatomy-of-a-riot/",
+    "img": "img/up-riot-map.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "Let Lata Sing!",
+    "date": "28 September, 2016",
+    "publication": "Hindustan Times",
+    "slug": "lata",
+    "url": "http://www.hindustantimes.com/static/let-lata-mangeshkar-sing/",
+    "img": "img/let-lata-sing.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "India&rsquo;s civilian awards, a visual history",
+    "date": "15 September, 2016",
+    "publication": "Hindustan Times",
+    "slug": "padmas-visual-history",
+    "url": "http://www.hindustantimes.com/static/padmas-visual-history/",
+    "img": "img/stream-graph.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "Who holds the world record for the longest held world record?",
+    "date": "23 August, 2016",
+    "publication": "Hindustan Times",
+    "slug": "longest-record",
+    "url": "http://www.hindustantimes.com/static/olympics/longest-world-record/",
+    "img": "img/longest-record.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "Pick the next Governor of the Reserve Bank of India",
+    "date": "27 July, 2016",
+    "publication": "Hindustan Times",
+    "slug": "rbi-gov",
+    "url": "http://www.hindustantimes.com/static/pick-the-rbi-governor/",
+    "img": "img/rbi-gov.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "Indian women are rapidly leaving the workforce",
+    "date": "29 June, 2016",
+    "publication": "Hindustan Times",
+    "slug": "women-workforce",
+    "url": "http://www.hindustantimes.com/static/indian-women-leaving-workforce/",
+    "img": "img/women-air-traffic-controllers.jpg",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "The Forsaken",
+    "date": "11 May, 2016",
+    "publication": "Hindustan Times",
+    "slug": "the-forsaken",
+    "url": "http://www.hindustantimes.com/static/deaths-door/the-forsaken-death-penalty.html",
+    "img": "img/barbed-wire-wall.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "India's Battle Against HIV Yields Uneven Gains",
+    "date": "28 January, 2016",
+    "publication": "Hindustan Times",
+    "slug": "naco-aids",
+    "url": "http://www.hindustantimes.com/static/india-hiv-national-aids-control-organisation/",
+    "img": "img/aids.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "NYPD oversight agency staffed by young, untested investigators",
+    "date": "24 June, 2015",
+    "publication": "The New York World",
+    "slug": "ccrb",
+    "url": "https://web.archive.org/web/20170608204244/http://www.thenewyorkworld.com/2015/06/25/intense-scrutiny-young-untested-staff-ccrb-tasked-investigating-police-misconduct/",
+    "img": "img/nypd.jpg",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "A risky cargo on the Hudson River",
+    "date": "26 April, 2015",
+    "publication": "The Albany Times Union",
+    "slug": "bakken",
+    "url": "http://www.timesunion.com/tuplus-local/article/A-risky-cargo-on-the-Hudson-River-6224364.php",
+    "img": "img/dean-reinauer.jpg",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "New York companies exceed campaign contribution limits with impunity",
+    "date": "12 November, 2014",
+    "publication": "The New York World",
+    "slug": "campaign-contributions-new-york",
+    "url": "https://web.archive.org/web/20170609012446/http://www.thenewyorkworld.com/2014/11/12/state-little-rein-corporations-routinely-exceed-campaign-contribution-limits/",
+    "img": "img/ny-state-capitol.jpg",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "Utility boss who failed to prevent alleged fraud gets severance",
+    "date": "30 August, 2014",
+    "publication": "The Salt Lake Tribune",
+    "slug": "heber-light-and-power",
+    "url": "http://archive.sltrib.com/story.php?ref=/sltrib/news/58338926-78/stewart-company-heber-franco.html.csp",
+    "img": "img/tony-furness.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "Black tenant alleges racism at Utah apartment building",
+    "date": "23 August, 2014",
+    "publication": "The Salt Lake Tribune",
+    "slug": "coleman",
+    "url": "http://archive.sltrib.com/story.php?ref=/sltrib/news/58321513-78/coleman-friendship-manor-housing.html.csp",
+    "img": "img/jack-coleman.png",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "30-year search: Mother seeks remains of lost son who died in Utah",
+    "date": "18 August, 2014",
+    "publication": "The Salt Lake Tribune",
+    "slug": "lee-beeler",
+    "url": "http://archive.sltrib.com/story.php?ref=/sltrib/mobilemobileopinion/58271918-183/lee-beeler-kathy-mary.html.csp",
+    "img": "img/lee-beeler.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "Where life is: The search for a planet like ours",
+    "date": "11 June, 2014",
+    "publication": "The Atlantic",
+    "slug": "where-life-is",
+    "url": "http://www.theatlantic.com/technology/archive/2014/06/where-life-is-the-search-for-a-planet-like-ours/372595/",
+    "img": "img/kepler-10b.jpg",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "Holy Land Christians hope Pope Francis might revive peace talks",
+    "date": "13 May, 2014",
+    "publication": "The Washington Post",
+    "slug": "pope-francis",
+    "url": "http://www.washingtonpost.com/national/religion/holy-land-christians-hope-pope-francis-visit-might-revive-peace-talks/2014/05/13/f79b84b8-dab0-11e3-a837-8835df6c12c4_story.html",
+    "img": "img/pope-francis.jpg",
+    "hide": ""
+  }
+]
