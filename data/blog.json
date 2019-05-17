@@ -2,12 +2,21 @@
   {
     "internal": false,
     "category": "Blog",
+    "headline": "Mapping gridded data with a Voronoi diagram",
+    "date": "16 May, 2019",
+    "publication": "Observable",
+    "slug": "mapping-gridded-data-with-a-voronoi-diagram",
+    "url": "https://observablehq.com/@harrystevens/mapping-gridded-data-with-a-voronoi-diagram"
+  },  
+  {
+    "internal": false,
+    "category": "Blog",
     "headline": "Introducing d3-regression",
     "date": "8 April, 2019",
     "publication": "Observable",
     "slug": "introducing-d3-regression",
     "url": "https://observablehq.com/@harrystevens/introducing-d3-regression"
-  },  
+  },
   {
     "internal": false,
     "category": "Blog",
