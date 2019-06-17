@@ -52,8 +52,6 @@ $(document).ready(function(){
 	// Add smooth scrolling to all links
 	$(document).on("click touchstart", "a", function(event) {
 
-		console.log("hello");
-
 	  // Make sure this.hash has a value before overriding default behavior
 	  if (this.hash !== "") {
 	    // Prevent default anchor click behavior
