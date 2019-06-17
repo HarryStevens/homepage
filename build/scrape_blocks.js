@@ -44,7 +44,7 @@ request("https://gist.github.com/harrystevens", function(error, response, body){
 
 	console.log("Data will output as data/blocks.json");
 
-	var number = Math.ceil($("nav.reponav.js-repo-nav.js-sidenav-container-pjax").find("a:nth-of-type(1)").find(".Counter").text() / 10);
+	var number = Math.ceil($("#gist-pjax-container > div > div.gutter.d-flex > div.col-9 > div.pagehead.py-0 > nav > a.js-selected-navigation-item.selected.reponav-item > span").text() / 10);
 	console.log("Total gist pages: " + number)
 
 	for (var i = 1; i <= number; i++){
