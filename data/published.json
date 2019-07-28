@@ -1,6 +1,36 @@
 [
   {
     "category": "Published",
+    "headline": "NASA extends the TESS mission for 2 extra years",
+    "date": "23 July, 2019",
+    "publication": "Axios",
+    "slug": "tess",
+    "url": "https://www.axios.com/nasa-tess-mission-extension-6ea02fba-b6b2-42ac-8635-584928144567.html",
+    "img": "img/tess.gif",
+    "hide": ""
+  },
+  {
+    "category": "Published",
+    "headline": "Trump still winning the money race",
+    "date": "16 July, 2019",
+    "publication": "Axios",
+    "slug": "q2-finance",
+    "url": "https://www.axios.com/q2-fundraising-donald-trump-winning-money-race-27107e4f-0c8d-4936-8172-e25fc8b0413c.html",
+    "img": "img/q2-finance.png",
+    "hide": "TRUE"
+  },
+  {
+    "category": "Published",
+    "headline": "Inside a top Trump adviser's fundraising mirage",
+    "date": "5 May, 2019",
+    "publication": "Axios",
+    "slug": "bossie",
+    "url": "https://www.axios.com/david-bossie-fundraising-presidential-coalition-3bf22829-8a89-4a10-84b7-7310e02c2ef2.html",
+    "img": "img/bossie.jpg",
+    "hide": ""
+  },
+  {
+    "category": "Published",
     "headline": "Israeli moon landing to mark milestone in lunar exploration",
     "date": "9 April, 2019",
     "publication": "Axios",
