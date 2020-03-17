@@ -1,6 +1,16 @@
 [
     {
     "category": "Published",
+    "headline": "Why outbreaks like coronavirus spread exponentially, and how to “flatten the curve”",
+    "date": "14 March, 2020",
+    "publication": "The Washington Post",
+    "slug": "coronasim",
+    "url": "https://www.washingtonpost.com/graphics/2020/world/corona-simulator/",
+    "img": "img/coronasim.jpg",
+    "hide": ""
+    },
+    {
+    "category": "Published",
     "headline": "More than 1 million fires in Australia detected by satellites since September",
     "date": "10 January, 2020",
     "publication": "The Washington Post",
@@ -8,7 +18,7 @@
     "url": "https://www.washingtonpost.com/graphics/2020/world/australia-fires/",
     "img": "img/aussie-fires.gif",
     "hide": ""
-  },
+    },
     {
     "category": "Published",
     "headline": "How we know global warming is real",
@@ -25,7 +35,7 @@
     "date": "23 July, 2019",
     "publication": "Axios",
     "slug": "tess",
-    "url": "https://www.axios.com/nasa-tess-mission-extension-6ea02fba-b6b2-42ac-8635-584928144567.html",
+    "url": "https://graphics.axios.com/2019-07-17-tess/index.html",
     "img": "img/tess.gif",
     "hide": ""
   },
@@ -47,7 +57,7 @@
     "slug": "bossie",
     "url": "https://www.axios.com/david-bossie-fundraising-presidential-coalition-3bf22829-8a89-4a10-84b7-7310e02c2ef2.html",
     "img": "img/bossie.jpg",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
@@ -55,7 +65,7 @@
     "date": "9 April, 2019",
     "publication": "Axios",
     "slug": "spinny-moon",
-    "url": "https://www.axios.com/israeli-moon-landing-graphic-all-the-moon-landings-4941c45f-b7a3-4c1a-a797-37214564d975.html",
+    "url": "https://graphics.axios.com/2019-03-19-spinny-moon/index.html",
     "img": "img/spinny-moon.gif",
     "hide": ""
   },
@@ -65,7 +75,7 @@
     "date": "31 March, 2019",
     "publication": "Axios",
     "slug": "ceo-contribs",
-    "url": "https://www.axios.com/ceo-political-giving-republicans-1ef230b4-ba70-4be9-86f7-38c64fcc097e.html",
+    "url": "https://graphics.axios.com/2019-03-26-ceo-contribs/index.html",
     "img": "img/ceo-contribs.png",
     "hide": ""
   },
@@ -75,7 +85,7 @@
     "date": "9 February, 2019",
     "publication": "Axios",
     "slug": "dating-game",
-    "url": "https://www.axios.com/online-dating-swiping-tinder-bumble-hinge-gaming-28f87a88-7227-4ed2-b2b4-04eaa2086d09.html",
+    "url": "https://graphics.axios.com/2019-01-30-dating-game/index.html",
     "img": "img/dating-game.gif",
     "hide": ""
   },
@@ -85,7 +95,7 @@
     "date": "20 December, 2018",
     "publication": "Axios",
     "slug": "el-nino",
-    "url": "https://www.axios.com/el-nino-is-developing-in-pacific-ocean-winter-2019-9d878cf0-a7a5-45e5-8459-b041f209e199.html",
+    "url": "https://graphics.axios.com/2018-12-18-ocean-temps/index.html",
     "img": "img/el-nino.gif",
     "hide": ""
   },
@@ -95,7 +105,7 @@
     "date": "1 November, 2018",
     "publication": "Axios",
     "slug": "corporate-contributions",
-    "url": "https://www.axios.com/corporate-america-campaign-contributions-midterms-ca695de3-7700-414c-af2c-9599dbce2713.html",
+    "url": "https://graphics.axios.com/2018-10-09-corporate-contributions/index.html",
     "img": "img/corporate-contributions.png",
     "hide": ""
   },
@@ -105,7 +115,7 @@
     "date": "6 October, 2018",
     "publication": "Axios",
     "slug": "exoplanets",
-    "url": "https://www.axios.com/all-the-exoplanets-we-detected-in-the-milky-way-24423697-a27c-4e5f-a23f-e0a7b7ae4c45.html",
+    "url": "https://graphics.axios.com/2018-09-28-exoplanets/index.html",
     "img": "img/exoplanets.png",
     "hide": ""
   },
@@ -115,7 +125,7 @@
     "date": "28 August, 2018",
     "publication": "Axios",
     "slug": "campaign-contributions-new-york",
-    "url": "https://www.axios.com/house-campaign-contributions-outside-money-f776be9e-f74b-4834-8ff4-ae30df1f7c61.html",
+    "url": "https://graphics.axios.com/2018-08-16-geo-campaign-finance/index.html",
     "img": "img/geo-campaign-finance-fallback.gif",
     "hide": ""
   },
@@ -125,7 +135,7 @@
     "date": "21 August, 2018",
     "publication": "Axios",
     "slug": "temp-records",
-    "url": "https://www.axios.com/heat-records-temperature-climate-change-map-f82a017b-4383-43d0-ae52-42517138b108.html",
+    "url": "https://graphics.axios.com/2018-08-20-temperature-animation/index.html",
     "img": "img/temp-records.gif",
     "hide": ""
   },  
@@ -135,7 +145,7 @@
     "date": "14 August, 2018",
     "publication": "Axios",
     "slug": "chicago-guns",
-    "url": "https://www.axios.com/chicago-gun-violence-murder-rate-statistics-4addeeec-d8d8-4ce7-a26b-81d428c14836.html",
+    "url": "https://graphics.axios.com/2018-08-13-chicago-gun-crime/index.html",
     "img": "img/chicago-guns.png",
     "hide": ""
   },
@@ -155,7 +165,7 @@
     "date": "23 June, 2018",
     "publication": "Axios",
     "slug": "heat-globes",
-    "url": "https://www.axios.com/how-much-earth-has-warmed-since-hansen-testified-b6f8fdb4-484e-477f-b8b6-6ee320994dc0.html",
+    "url": "https://graphics.axios.com/2018-06-18-four-globes/index.html",
     "img": "img/heat-globes.gif",
     "hide": ""
   },
@@ -197,7 +207,7 @@
     "slug": "contour-map",
     "url": "https://www.axios.com/map-of-freshwater-trends-human-impacts-1526484828-26c12185-7c10-4a06-ac66-0a92ec399514.html",
     "img": "img/contour-map.png",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
