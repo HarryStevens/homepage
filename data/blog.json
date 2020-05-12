@@ -2,6 +2,24 @@
   {
     "internal": false,
     "category": "Blog",
+    "headline": "Eight Columbians Awarded 2020 Pulitzer Prizes",
+    "date": "11 May, 2020",
+    "publication": "Columbia Alumni",
+    "slug": "pulitzer-columbia",
+    "url": "https://alumni.columbia.edu/news/eight-columbians-awarded-2020-pulitzer-prizes"
+  },
+  {
+    "internal": false,
+    "category": "Blog",
+    "headline": "The Changelog podcast: Visualizing the spread of Coronavirus",
+    "date": "13 April, 2020",
+    "publication": "The Changelog",
+    "slug": "changelog-podcast",
+    "url": "https://changelog.com/podcast/390"
+  },
+  {
+    "internal": false,
+    "category": "Blog",
     "headline": "Introducing d3-geo-scale-bar",
     "date": "10 February, 2020",
     "publication": "Observable",

@@ -1,7 +1,7 @@
 [
     {
     "category": "Published",
-    "headline": "Why outbreaks like coronavirus spread exponentially, and how to “flatten the curve”",
+    "headline": "Why outbreaks like coronavirus spread exponentially",
     "date": "14 March, 2020",
     "publication": "The Washington Post",
     "slug": "coronasim",
@@ -185,7 +185,7 @@
     "date": "7 June, 2018",
     "publication": "Axios",
     "slug": "climate-small-multiples",
-    "url": "https://www.axios.com/how-much-the-world-has-warmed-since-1880-9fcf1bcb-38d4-4bff-8dc8-10fde9f4c895.html",
+    "url": "https://graphics.axios.com/2018-06-04-temperature-globe/index.html",
     "img": "img/climate-small-multiples.png",
     "hide": ""
   },
