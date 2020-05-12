@@ -17,7 +17,7 @@ d3.json("data/published.json", function(data){
 		data = no_blocks.concat(blocks);
 
 		data.forEach(function(d){
-			return d.cat_slug = jz.str.toSlugCase(d.category); 
+			return d.cat_slug = toSlugCase(d.category); 
 		});
 
 		var categories = ["Published", "Blog", "Blocks"];
@@ -63,3 +63,12 @@ d3.json("data/published.json", function(data){
 
 var text = $(".header h1 a").attr("href", "#").text();
 $(".header h1").html(text);
+
+function toSlugCase(x) {
+  return x.toString().toLowerCase()
+    .replace(/\s+/g, "-")           // Replace spaces with -
+    .replace(/[^\w\-]+/g, "")       // Remove all non-word chars
+    .replace(/\-\-+/g, "-")         // Replace multiple - with single -
+    .replace(/^-+/, "")             // Trim - from start of text
+    .replace(/-+$/, "");            // Trim - from end of text
+}

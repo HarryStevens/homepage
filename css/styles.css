@@ -35,6 +35,13 @@ h2 a:hover {
 	color: #000;
 }
 
+.subhead {
+  display:  inline-block;
+}
+.social-links {
+  display:  inline-block;
+}
+
 .header, .body-wrapper, .links-sub-wrapper, .footer {
 	max-width: 992px;
 	margin: 0 auto;

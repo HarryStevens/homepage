@@ -72,7 +72,7 @@
     "url": "https://www.informationisbeautifulawards.com/news/262-the-winners-people-language-identity"
   },
   {
-    "internal": true,
+    "internal": false,
     "category": "Blog",
     "headline": "Introducing “party-time”: An npm package for converting Indian political party names",
     "date": "12 July, 2017",
@@ -81,7 +81,7 @@
     "url": "https://medium.com/indiedata/introducing-party-time-a-node-package-that-makes-converting-indian-political-party-names-b0e9ba28d5ca"
   },
   {
-    "internal": true,
+    "internal": false,
     "category": "Blog",
     "headline": "How I built a Twitter bot that tweets 100-year-old New York Times articles",
     "date": "28 April, 2017",
