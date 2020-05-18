@@ -1,6 +1,16 @@
 [
     {
     "category": "Published",
+    "headline": "How experts use disease modeling to predict coronavirus outbreaks",
+    "date": "14 May, 2020",
+    "publication": "The Washington Post",
+    "slug": "covid-models",
+    "url": "https://www.washingtonpost.com/graphics/2020/health/disease-modeling-coronavirus-cases-reopening/",
+    "img": "img/covid-models.jpg",
+    "hide": ""
+    },
+    {
+    "category": "Published",
     "headline": "Why outbreaks like coronavirus spread exponentially",
     "date": "14 March, 2020",
     "publication": "The Washington Post",
