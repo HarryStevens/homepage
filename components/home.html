@@ -8,3 +8,77 @@
 		
 		<script src="js/scripts.js"></script>
 		<script src="js/spy.js"></script>
+
+    <script src="https://unpkg.com/geometric@2.2.3/build/geometric.min.js"></script>
+    <script src="js/boids.js"></script>
+    <script>
+      const tester = setInterval(_ => {
+        if (document.body.clientHeight > innerHeight){
+          clearInterval(tester);
+
+          const myBoids = (_ => {
+            const simulation = new Boids;
+            simulation.init({
+              separation: .8,
+              height: document.body.clientHeight
+            });
+
+            // Add 1000 boids
+            for (let i = 0; i < 1000; i++){
+              simulation.add({
+                angle: d3.randomUniform(-360, 360)(),
+                pos: [
+                  d3.randomUniform(0, simulation.width)(),
+                  d3.randomUniform(0, simulation.height)()
+                ]
+              });
+            }
+
+            return simulation;
+          })();
+
+          // Draw the simulation
+
+          const wrapper = document.body;
+          const canvas = document.createElement("canvas");
+          canvas.style.position = "absolute";
+          canvas.style.top = "0px";
+          canvas.style.pointerEvents = "none";
+          canvas.width = myBoids.width;
+          canvas.height = myBoids.height;
+          wrapper.appendChild(canvas);
+          const context = canvas.getContext("2d");
+          context.strokeStyle = "black";
+
+          function tick(){
+            requestAnimationFrame(tick);
+            context.clearRect(0, 0, myBoids.width, myBoids.height);
+
+            // The simulation.tick method advances the simulation one tick
+            myBoids.tick();
+            for (let i = 0, l = myBoids.data.length; i < l; i++){
+              const boid = myBoids.data[i],
+                    a = geometric.pointTranslate(boid.pos, boid.angle - 90, 3),
+                    b = geometric.pointTranslate(boid.pos, boid.angle, 9),
+                    c = geometric.pointTranslate(boid.pos, boid.angle + 90, 3);
+              context.beginPath();
+              context.moveTo(...a);
+              context.lineTo(...b);
+              context.lineTo(...c);
+              context.lineTo(...a);
+              context.stroke();
+            }
+          }
+          tick();
+
+          addEventListener("resize", _ => {
+            myBoids.width = innerWidth;
+            myBoids.height = document.body.clientHeight;
+            canvas.width = myBoids.width;
+            canvas.height = myBoids.height;
+            context.strokeStyle = "black";
+          });
+        }
+      }, 100);
+
+    </script>

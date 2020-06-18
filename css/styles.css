@@ -59,6 +59,7 @@ h2 a:hover {
 	padding: 10px 0px;
 	margin-bottom: 80px;
 	text-align: center;
+  z-index: 1;
 }
 .nav-links a {
 	/*margin-right: 30px;*/
