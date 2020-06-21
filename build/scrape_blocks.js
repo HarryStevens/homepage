@@ -35,7 +35,7 @@ _.rateLimit = function(func, rate, async) {
 // empty json
 var json = [];
 
-var scrape_gist_limited = _.rateLimit(scrape_gist, 3000);
+var scrape_gist_limited = _.rateLimit(scrape_gist, 5000);
 
 // find out how many gists there are
 request("https://gist.github.com/harrystevens", function(error, response, body){
