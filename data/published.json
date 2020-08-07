@@ -1,6 +1,26 @@
 [
     {
     "category": "Published",
+    "headline": "How America can build herd immunity to the coronavirus",
+    "date": "7 August, 2020",
+    "publication": "The Washington Post",
+    "slug": "herd-immunity",
+    "url": "https://www.washingtonpost.com/graphics/2020/health/coronavirus-herd-immunity-simulation-vaccine/",
+    "img": "img/herd-immunity.jpg",
+    "hide": ""
+    },
+    {
+    "category": "Published",
+    "headline": "Six months, six countries, six families — and one unrelenting epidemic",
+    "date": "9 July, 2020",
+    "publication": "The Washington Post",
+    "slug": "covid-models",
+    "url": "https://www.washingtonpost.com/graphics/2020/world/coronavirus-pandemic-lives-upended/",
+    "img": "img/wave-spikes.gif",
+    "hide": ""
+    },
+    {
+    "category": "Published",
     "headline": "How experts use disease modeling to predict coronavirus outbreaks",
     "date": "14 May, 2020",
     "publication": "The Washington Post",
