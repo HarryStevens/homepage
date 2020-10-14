@@ -1,6 +1,16 @@
 [
     {
     "category": "Published",
+    "headline": "Scientists have a powerful new tool for controlling the coronavirus",
+    "date": "13 October, 2020",
+    "publication": "The Washington Post",
+    "slug": "scienceville",
+    "url": "https://www.washingtonpost.com/graphics/2020/health/coronavirus-genetic-code/",
+    "img": "img/scienceville.jpg",
+    "hide": ""        
+    },
+    {
+    "category": "Published",
     "headline": "How America can build herd immunity to the coronavirus",
     "date": "7 August, 2020",
     "publication": "The Washington Post",

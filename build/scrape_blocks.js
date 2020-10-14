@@ -44,7 +44,7 @@ request("https://gist.github.com/harrystevens", function(error, response, body){
 
 	console.log("Data will output as data/blocks.json");
 
-	var number = Math.ceil($("#gist-pjax-container > div > div.gutter.d-flex > div.col-9 > div.pagehead.py-0 > nav > a.js-selected-navigation-item.selected.reponav-item > span").text() / 10);
+	var number = Math.ceil($("#gist-pjax-container > div > div > div.col-9.col-md-9.col-12 > div.pagehead.py-0.border-0.mt-md-0.mt-6.mr-md-0.mr-n3.ml-md-0.ml-n3 > nav > div.UnderlineNav-body > a.js-selected-navigation-item.selected.UnderlineNav-item > span").text() / 10);
 	console.log("Total gist pages: " + number)
 
 	for (var i = 1; i <= number; i++){
@@ -89,7 +89,7 @@ function scrape_gist(n){
 
 						json.push(obj);
 
-						fs.writeFileSync("data/blocks.json", JSON.stringify(json));
+						fs.writeFileSync(__dirname + "/../data/blocks.json", JSON.stringify(json));
 
 					});
 
