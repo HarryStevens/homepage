@@ -1,6 +1,16 @@
 [
     {
     "category": "Published",
+    "headline": "Behind the tally, names and lives",
+    "date": "18 November, 2020",
+    "publication": "The Washington Post",
+    "slug": "airwars",
+    "url": "https://www.washingtonpost.com/graphics/2020/world/coalition-airstrikes-isis-civilian-death-toll/",
+    "img": "img/airwars.gif",
+    "hide": ""        
+    },
+    {
+    "category": "Published",
     "headline": "Scientists have a powerful new tool for controlling the coronavirus",
     "date": "13 October, 2020",
     "publication": "The Washington Post",
