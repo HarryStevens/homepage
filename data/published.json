@@ -1,13 +1,43 @@
 [
     {
     "category": "Published",
+    "headline": "Texas’s primaries are happening on a legally disputed congressional map",
+    "date": "24 February, 2022",
+    "publication": "The Washington Post",
+    "slug": "texasmap",
+    "url": "https://www.washingtonpost.com/politics/interactive/2022/texas-congressional-district-map/",
+    "img": "img/texasmap.jpg",
+    "hide": ""
+    },
+    {
+    "category": "Published",
+    "headline": "How ranked-choice voting could change the way democracy works",
+    "date": "22 June, 2021",
+    "publication": "The Washington Post",
+    "slug": "rcv",
+    "url": "https://www.washingtonpost.com/politics/interactive/2021/ranked-choice-voting-guide/",
+    "img": "img/rcv.jpg",
+    "hide": ""
+    },
+    {
+    "category": "Published",
+    "headline": "Rhode Island is about to get hosed",
+    "date": "14 April, 2021",
+    "publication": "The Washington Post",
+    "slug": "apportionment",
+    "url": "https://www.washingtonpost.com/politics/interactive/2021/how-apportionment-works/",
+    "img": "img/apportionment-promo.jpg",
+    "hide": ""
+    },
+    {
+    "category": "Published",
     "headline": "Behind the tally, names and lives",
     "date": "18 November, 2020",
     "publication": "The Washington Post",
     "slug": "airwars",
     "url": "https://www.washingtonpost.com/graphics/2020/world/coalition-airstrikes-isis-civilian-death-toll/",
     "img": "img/airwars.gif",
-    "hide": ""        
+    "hide": ""
     },
     {
     "category": "Published",
@@ -37,7 +67,7 @@
     "slug": "covid-models",
     "url": "https://www.washingtonpost.com/graphics/2020/world/coronavirus-pandemic-lives-upended/",
     "img": "img/wave-spikes.gif",
-    "hide": ""
+    "hide": "TRUE"
     },
     {
     "category": "Published",
@@ -47,7 +77,7 @@
     "slug": "covid-models",
     "url": "https://www.washingtonpost.com/graphics/2020/health/disease-modeling-coronavirus-cases-reopening/",
     "img": "img/covid-models.jpg",
-    "hide": ""
+    "hide": "TRUE"
     },
     {
     "category": "Published",
@@ -87,7 +117,7 @@
     "slug": "tess",
     "url": "https://graphics.axios.com/2019-07-17-tess/index.html",
     "img": "img/tess.gif",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
@@ -127,7 +157,7 @@
     "slug": "ceo-contribs",
     "url": "https://graphics.axios.com/2019-03-26-ceo-contribs/index.html",
     "img": "img/ceo-contribs.png",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
@@ -137,7 +167,7 @@
     "slug": "dating-game",
     "url": "https://graphics.axios.com/2019-01-30-dating-game/index.html",
     "img": "img/dating-game.gif",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
@@ -147,7 +177,7 @@
     "slug": "el-nino",
     "url": "https://graphics.axios.com/2018-12-18-ocean-temps/index.html",
     "img": "img/el-nino.gif",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
@@ -187,7 +217,7 @@
     "slug": "temp-records",
     "url": "https://graphics.axios.com/2018-08-20-temperature-animation/index.html",
     "img": "img/temp-records.gif",
-    "hide": ""
+    "hide": "TRUE"
   },  
   {
     "category": "Published",
@@ -197,7 +227,7 @@
     "slug": "chicago-guns",
     "url": "https://graphics.axios.com/2018-08-13-chicago-gun-crime/index.html",
     "img": "img/chicago-guns.png",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
@@ -207,7 +237,7 @@
     "slug": "trump-payments",
     "url": "https://www.axios.com/donald-trump-properties-taxpayer-campaigns-presidency-91e3755d-23cd-42d1-897d-c0c81ac509dd.html",
     "img": "img/trump-payments.png",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
@@ -217,7 +247,7 @@
     "slug": "heat-globes",
     "url": "https://graphics.axios.com/2018-06-18-four-globes/index.html",
     "img": "img/heat-globes.gif",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
@@ -227,7 +257,7 @@
     "slug": "airstrikes",
     "url": "https://www.axios.com/where-the-us-is-bombing-isis-in-iraq-and-syria-9187d0a9-edea-4d4a-8a36-628636e7f752.html",
     "img": "img/airstrikes.png",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
@@ -277,7 +307,7 @@
     "slug": "teacher-vacancies",
     "url": "http://www.hindustantimes.com/class-of-2018/delhi-schools-12000-teacher-vacancies.html",
     "img": "img/teacher-grid.png",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
@@ -287,7 +317,7 @@
     "slug": "poirot",
     "url": "http://www.hindustantimes.com/interactives/murder-on-the-orient-express-hercule-poirot-agatha-christie/",
     "img": "img/poirot.png",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
@@ -337,7 +367,7 @@
     "slug": "perfect-run",
     "url": "http://www.hindustantimes.com/interactives/fitter-mumbai-run-finder/",
     "img": "img/fitter-mumbai-app-demo.gif",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
@@ -377,7 +407,7 @@
     "slug": "trolled-all-day",
     "url": "http://www.hindustantimes.com/interactives/lets-talk-about-trolls/whats-it-like-to-get-trolled-all-day-long/",
     "img": "img/barkha-dutt-feed.png",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
@@ -387,7 +417,7 @@
     "slug": "electoral-trusts",
     "url": "http://www.hindustantimes.com/interactives/electoral-trusts-explained/",
     "img": "img/electoral-trust-sankey.png",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
@@ -547,7 +577,7 @@
     "slug": "heber-light-and-power",
     "url": "http://archive.sltrib.com/story.php?ref=/sltrib/news/58338926-78/stewart-company-heber-franco.html.csp",
     "img": "img/tony-furness.png",
-    "hide": ""
+    "hide": "TRUE"
   },
   {
     "category": "Published",
@@ -587,6 +617,6 @@
     "slug": "pope-francis",
     "url": "http://www.washingtonpost.com/national/religion/holy-land-christians-hope-pope-francis-visit-might-revive-peace-talks/2014/05/13/f79b84b8-dab0-11e3-a837-8835df6c12c4_story.html",
     "img": "img/pope-francis.jpg",
-    "hide": ""
+    "hide": "TRUE"
   }
 ]
