@@ -4,7 +4,8 @@ const fs = require("fs"),
 // empty json
 const json = [];
 
-var scrape_gist_limited = scraperama.throttle(scrape_gist, 5000);
+// throttled scraper
+const scrape_gist_limited = scraperama.throttle(scrape_gist, 5000);
 
 // find out how many gists there are
 scraperama.html("https://gist.github.com/harrystevens", ($) => {
@@ -15,9 +16,7 @@ scraperama.html("https://gist.github.com/harrystevens", ($) => {
 	console.log(`Total gist pages: ${number}`)
 
 	for (let i = 1; i <= number; i++){
-
 		scrape_gist_limited(i);
-		
 	}
 
 });
@@ -56,7 +55,7 @@ function scrape_gist(n){
 
 				});
 
-				}
+			}
 			
 		});
 
