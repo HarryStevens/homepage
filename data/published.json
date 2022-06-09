@@ -1,6 +1,16 @@
 [
     {
     "category": "Published",
+    "headline": "Who’s afraid of elemental power?",
+    "date": "28 April, 2022",
+    "publication": "The Washington Post",
+    "slug": "nukefear",
+    "url": "https://www.washingtonpost.com/business/interactive/2022/nuclear-power-fear/",
+    "img": "img/nukefear.png",
+    "hide": ""
+    },
+    {
+    "category": "Published",
     "headline": "Texas’s primaries are happening on a legally disputed congressional map",
     "date": "24 February, 2022",
     "publication": "The Washington Post",
