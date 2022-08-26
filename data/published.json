@@ -27,7 +27,7 @@
         "slug": "texasmap",
         "url": "https://www.washingtonpost.com/politics/interactive/2022/texas-congressional-district-map/",
         "img": "img/texasmap.jpg",
-        "hide": ""
+        "hide": "TRUE"
     },
     {
         "category": "Published",
@@ -57,7 +57,7 @@
         "slug": "airwars",
         "url": "https://www.washingtonpost.com/graphics/2020/world/coalition-airstrikes-isis-civilian-death-toll/",
         "img": "img/airwars.gif",
-        "hide": ""
+        "hide": "TRUE"
     },
     {
         "category": "Published",
@@ -127,7 +127,7 @@
         "slug": "thermometers",
         "url": "https://www.washingtonpost.com/graphics/2019/national/climate-environment/thermometers-climate-change/",
         "img": "img/sonnblick.gif",
-        "hide": ""
+        "hide": "TRUE"
     },
     {
         "category": "Published",
