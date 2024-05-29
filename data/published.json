@@ -1,6 +1,46 @@
 [
     {
         "category": "Published",
+        "headline": "Bishop vanished. His species can still be saved.",
+        "date": "11 May, 2024",
+        "publication": "The Washington Post",
+        "slug": "whale-journey",
+        "url": "https://www.washingtonpost.com/climate-environment/interactive/2024/north-atlantic-right-whale-species-challenges/",
+        "img": "img/whalejourney.jpg",
+        "hide": ""
+    },
+    {
+        "category": "Published",
+        "headline": "Bird populations are declining. Some are in your neighborhood.",
+        "date": "17 January, 2024",
+        "publication": "The Washington Post",
+        "slug": "bird-trends",
+        "url": "https://www.washingtonpost.com/climate-environment/interactive/2024/bird-population-decline-united-states-maps/",
+        "img": "img/birdtrends.jpg",
+        "hide": ""
+    },
+    {
+        "category": "Published",
+        "headline": "A boat went dark. Finding it could help save the world’s fish.",
+        "date": "24 May, 2023",
+        "publication": "The Washington Post",
+        "slug": "vesseltracking",
+        "url": "https://www.washingtonpost.com/climate-environment/interactive/2023/map-illegal-fishing/",
+        "img": "img/vesseltracking.jpg",
+        "hide": ""
+    },
+    {
+        "category": "Published",
+        "headline": "Will global warming make temperature less deadly?",
+        "date": "16 February, 2023",
+        "publication": "The Washington Post",
+        "slug": "hotcold",
+        "url": "https://www.washingtonpost.com/climate-environment/interactive/2023/hot-cold-extreme-temperature-deaths/",
+        "img": "img/hotcold-promo.jpg",
+        "hide": ""
+    },
+    {
+        "category": "Published",
         "headline": "Can computer simulations help fix democracy?",
         "date": "22 August, 2022",
         "publication": "The Washington Post",
