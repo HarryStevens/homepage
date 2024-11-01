@@ -1,6 +1,16 @@
 [
     {
         "category": "Published",
+        "headline": "The real reason climate disasters are getting more expensive",
+        "date": "24 October, 2024",
+        "publication": "The Washington Post",
+        "slug": "disaster-debate",
+        "url": "https://www.washingtonpost.com/climate-environment/interactive/2024/billion-dollar-disasters-climate-change-economy/",
+        "img": "img/disaster-debate.jpg",
+        "hide": ""
+    },
+    {
+        "category": "Published",
         "headline": "Which season is warming faster in your town?",
         "date": "8 August, 2024",
         "publication": "The Washington Post",
