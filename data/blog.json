@@ -2,6 +2,24 @@
   {
     "internal": false,
     "category": "Blog",
+    "headline": "Practical Significance podcast: Data Is My Superpower",
+    "date": "1 October, 2024",
+    "publication": "The Washington Post",
+    "slug": "practical-significance-2024",
+    "url": "https://magazine.amstat.org/blog/podcast/practical-significance-episode-46-data-is-my-superpower-a-conversation-with-the-excellence-in-statistical-reporting-award-recipient/"
+  },
+  {
+    "internal": false,
+    "category": "Blog",
+    "headline": "Harry Stevens recognized with 2024 Excellence in Statistical Reporting Award from the American Statistical Association",
+    "date": "14 August, 2024",
+    "publication": "The Washington Post",
+    "slug": "asa-2024-award",
+    "url": "https://www.washingtonpost.com/pr/2024/08/14/harry-stevens-recognized-with-2024-excellence-statistical-reporting-award-rom-american-statistical-association/"
+  },
+  {
+    "internal": false,
+    "category": "Blog",
     "headline": "Stats + Stories: The Washington Post Climate Lab",
     "date": "18 April, 2024",
     "publication": "Stats + Stories",

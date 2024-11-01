@@ -1,6 +1,16 @@
 [
     {
         "category": "Published",
+        "headline": "Which season is warming faster in your town?",
+        "date": "8 August, 2024",
+        "publication": "The Washington Post",
+        "slug": "climate-seasons",
+        "url": "https://www.washingtonpost.com/climate-environment/interactive/2024/summer-winter-seasonal-warming-global-trends/",
+        "img": "img/climate-seasons.jpg",
+        "hide": ""
+    },
+    {
+        "category": "Published",
         "headline": "Bishop vanished. His species can still be saved.",
         "date": "11 May, 2024",
         "publication": "The Washington Post",

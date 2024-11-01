@@ -38,10 +38,10 @@ function scrape_gist(n){
         obj.category = "Blocks";
         obj.headline = $(block).find("span.f6.color-fg-muted").text().trim();
         obj.date = $(block).find("time-ago").text().trim();
-        obj.publication = "bl.ocks.org";
+        obj.publication = "blocks.roadtolarissa.com";
         obj.slug = slugify(obj.headline);
         const url_end = $(block).find("a:nth-of-type(2)").attr("href");
-        obj.url = `https://bl.ocks.org${url_end}`;
+        obj.url = `https://blocks.roadtolarissa.com${url_end}`;
 
         console.log(`Got block number ${obj.block_number}\t${obj.headline}`);
 
