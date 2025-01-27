@@ -17,7 +17,7 @@
         "slug": "climate-seasons",
         "url": "https://www.washingtonpost.com/climate-environment/interactive/2024/summer-winter-seasonal-warming-global-trends/",
         "img": "img/climate-seasons.jpg",
-        "hide": ""
+        "hide": "TRUE"
     },
     {
         "category": "Published",
@@ -47,7 +47,7 @@
         "slug": "vesseltracking",
         "url": "https://www.washingtonpost.com/climate-environment/interactive/2023/map-illegal-fishing/",
         "img": "img/vesseltracking.jpg",
-        "hide": ""
+        "hide": "TRUE"
     },
     {
         "category": "Published",
@@ -97,7 +97,7 @@
         "slug": "rcv",
         "url": "https://www.washingtonpost.com/politics/interactive/2021/ranked-choice-voting-guide/",
         "img": "img/rcv.jpg",
-        "hide": ""
+        "hide": "TRUE"
     },
     {
         "category": "Published",
@@ -127,7 +127,7 @@
         "slug": "scienceville",
         "url": "https://www.washingtonpost.com/graphics/2020/health/coronavirus-genetic-code/",
         "img": "img/scienceville.jpg",
-        "hide": ""
+        "hide": "TRUE"
     },
     {
         "category": "Published",
@@ -287,7 +287,7 @@
         "slug": "campaign-contributions-new-york",
         "url": "https://graphics.axios.com/2018-08-16-geo-campaign-finance/index.html",
         "img": "img/geo-campaign-finance-fallback.gif",
-        "hide": ""
+        "hide": "TRUE"
     },
     {
         "category": "Published",
@@ -347,7 +347,7 @@
         "slug": "climate-small-multiples",
         "url": "https://graphics.axios.com/2018-06-04-temperature-globe/index.html",
         "img": "img/climate-small-multiples.png",
-        "hide": ""
+        "hide": "TRUE"
     },
     {
         "category": "Published",
