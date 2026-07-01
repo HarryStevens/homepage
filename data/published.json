@@ -1,6 +1,16 @@
 [
     {
         "category": "Published",
+        "headline": "Inside the Quest to Mine the Bottom of the Sea",
+        "date": "3 June, 2026",
+        "publication": "The New York Times",
+        "slug": "deepsea",
+        "url": "https://www.nytimes.com/interactive/2026/06/03/climate/deep-sea-mining-tests-hidden-gem.html",
+        "img": "img/deepsea.gif",
+        "hide": ""
+    },
+    {
+        "category": "Published",
         "headline": "China is Outpacing the U.S. on Nuclear Power",
         "date": "22 October, 2025",
         "publication": "The New York Times",
